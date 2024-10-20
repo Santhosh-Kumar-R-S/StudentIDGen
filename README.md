@@ -60,38 +60,46 @@ Below screenshots shows you the output of this project:<br>
 <h3>Welcome Page(<i>home.html</i>)</h3>
      After running the <b>app.py</b> file it gives an link in terminal just copy that link or hit that link with the cntrl button then it go to the your systems default browser and it shows this page. <br><br>
      
-![Screenshot 2024-10-20 190706](https://github.com/user-attachments/assets/0440723e-9c97-4e7e-9ccf-9d7ed4348835)<br>
+![Screenshot 2024-10-20 190706](https://github.com/user-attachments/assets/0440723e-9c97-4e7e-9ccf-9d7ed4348835)<br><br>
 
 
 <h3>After filling the required data</h3>
-   After filling the required data like Name, USN, Mobile Number, Parents Name, Place and attaching photo to genarate ID Card 
+   After filling the required data like Name, USN, Mobile Number, Parents Name, Place and attaching photo to genarate ID Card.<br><br>
      
-![Screenshot 2024-10-20 190848](https://github.com/user-attachments/assets/f1f212ee-8adc-4ffa-86b8-df316496790c)<br>
+![Screenshot 2024-10-20 190848](https://github.com/user-attachments/assets/f1f212ee-8adc-4ffa-86b8-df316496790c)<br><br>
 
 
-<h3>Problems Page(<i>problems.html</i>)</h3><br>
-     After hitting the <b>Start Quiz</b> in <i>quiz.html</i> browser loads the 10 random probelms here I attached only one question like wise 10 questions will be arises.<br><br>
+<h3>After hitting the Generate ID Card button</h3><br>
+     After hitting the <b>Generate ID Card</b> in <i>USer Inerface</i> it shows an pop-up notification(this time only the details of the student will be processed to store in database <i> StudentIDCardDB.db</i>) that is <b><i>Student details saved to database</i></b><br> and after hitting the <b>OK</b> button then it will redirect to another tab(which will shows edit information tab) those pages are attached in below.<br><br>
+<h4>Pop-up Notification</h4><br>
 
-![problems.html](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/1807967f-f53b-468d-907c-ca86edbd5e5a)<br>
+![Screenshot 2024-10-20 190903](https://github.com/user-attachments/assets/bb6f75fd-dc81-43a0-a7f6-d1a41f8ccf85)<br><br>
 
-<h3>Results![Screenshot 2024-10-20 190706](https://github.com/user-attachments/assets/4fcdb43d-47be-4c64-9342-73ac2fe22d92)
- Sheet(<i>result.html</i>) and Result got in Mail</h3>
-     In this page it shows the results of the user. In this result sheet it shows how many questions has submitted correct answer with grade, how many of questions skipped, how much time taken to solve the questions and result sent mail address.<br><br>
-     
-![results](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/7c4c15ff-2748-4c3e-b463-ee8f42e4076e) <br>
+<h4>Editable Tab</h4><br>
 
-<b>This picture from user mail:<br></b><br>
-![mail](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/82f1b955-2bde-445f-a58b-ad5c10722ebd)<br>
+![Screenshot 2024-10-20 190922](https://github.com/user-attachments/assets/8dcf6e6d-b447-4941-aed7-3fc5893e8a1c)<br><br>
 
-<h3>Database(<i>quiz_data.db</i>) and CSV File(quiz_data.csv</i>)</h3><br>
-     In this picture You clearly know that what are the participants are particiated, what is the score of that participants, mail etc. By the csv file we can sort the participants based on thiere score and timings to announce the ranking.
-     <br><br>
-     <i><b>quiz_data.db: <br></b><br></i>
 
-![data_base_stored](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/55c14592-6735-4daf-b8cc-a92f703c0fbe) <br><br>
-<i><b>CSV File:</b><br></i>
-<br>
-![CSV results](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/ae601c08-b4e8-4673-8a3a-edc6faf9dc52)<br>
+
+<h3>Preview of ID Card</h3>
+In the user interface redirect to the editable tab which will help to edit the details. In this page it contaion Preview ID Card, Download ID Card, Edit Details and Genarate ID Card with previous text feilds and buttons. If the user click the <b>Edit Details</b> button it will redirect to the old page. If the user click the <b>Preview ID Card</b> then it will show the Previw of ID Card. This sample is attached here.<br><br>
+
+![Screenshot 2024-10-20 194242](https://github.com/user-attachments/assets/64e8a8f2-d652-4536-8ee9-7c7772ab8385)<br>
+
+<h2>Database <i>StudentIDCardDB.db</i></h2>
+<h3>Data Stored in the Database</h3>
+After hitting the Generate ID Card that will shows a pop-up notification that picture attached to earlier that the data will be processed to store in database processed in background. that data retrived from the data base using this command:<br><br>
+MySQL Command:<br>
+
+<pre><code>
+     USE StudentIDCardDB
+     SELECT * FROM students
+</code></pre>
+
+
+
+![Screenshot 2024-10-20 191307](https://github.com/user-attachments/assets/80e44f02-c1f6-46da-ac16-cba1fa3d32fa)
+
 
 
 
