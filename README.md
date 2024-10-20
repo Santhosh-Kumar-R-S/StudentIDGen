@@ -60,19 +60,22 @@ Below screenshots shows you the output of this project:<br>
 <h3>Welcome Page(<i>home.html</i>)</h3>
      After running the <b>app.py</b> file it gives an link in terminal just copy that link or hit that link with the cntrl button then it go to the your systems default browser and it shows this page. <br><br>
      
-![home.html](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/f74313a9-1a3d-4a99-bd96-9bcf6e583a04)<br>
+![Screenshot 2024-10-20 190706](https://github.com/user-attachments/assets/0440723e-9c97-4e7e-9ccf-9d7ed4348835)<br>
 
-<h3>User Details Page(<i>quiz.html</i>)</h3>
-     After the hitting the <b>Start Quiz</b> button in <i>home.html</i> browser loads this page. In this Page we have to give input as our <b>Name and gmail id</b> to store the information to database and send the result to entered mail address.<br><br>
+
+<h3>After filling the required data</h3>
+   After filling the required data like Name, USN, Mobile Number, Parents Name, Place and attaching photo to genarate ID Card 
      
-![quiz.html](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/e08263f9-0114-4b39-9477-ba857b4dc12b)<br>
+![Screenshot 2024-10-20 190848](https://github.com/user-attachments/assets/f1f212ee-8adc-4ffa-86b8-df316496790c)<br>
+
 
 <h3>Problems Page(<i>problems.html</i>)</h3><br>
      After hitting the <b>Start Quiz</b> in <i>quiz.html</i> browser loads the 10 random probelms here I attached only one question like wise 10 questions will be arises.<br><br>
 
 ![problems.html](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/1807967f-f53b-468d-907c-ca86edbd5e5a)<br>
 
-<h3>Results Sheet(<i>result.html</i>) and Result got in Mail</h3>
+<h3>Results![Screenshot 2024-10-20 190706](https://github.com/user-attachments/assets/4fcdb43d-47be-4c64-9342-73ac2fe22d92)
+ Sheet(<i>result.html</i>) and Result got in Mail</h3>
      In this page it shows the results of the user. In this result sheet it shows how many questions has submitted correct answer with grade, how many of questions skipped, how much time taken to solve the questions and result sent mail address.<br><br>
      
 ![results](https://github.com/Santhosh-Kumar-R-S/Python-Mini-Project/assets/161617061/7c4c15ff-2748-4c3e-b463-ee8f42e4076e) <br>
