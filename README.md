@@ -91,19 +91,9 @@ In the user interface redirect to the editable tab which will help to edit the d
 After hitting the Generate ID Card that will shows a pop-up notification that picture attached to earlier that the data will be processed to store in database processed in background. that data retrived from the data base using this command:<br><br>
 MySQL Command:<br>
 
-<pre><code>
+```bash
      USE StudentIDCardDB
-     SELECT * FROM students
-</code></pre>
-
-
+     SELECT * FROM student
+```
 
 ![Screenshot 2024-10-20 191307](https://github.com/user-attachments/assets/80e44f02-c1f6-46da-ac16-cba1fa3d32fa)
-
-
-
-
-
-     
-
-     
