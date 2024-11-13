@@ -1,4 +1,4 @@
-# StudentIDGen
+## StudentIDGen
 <h1>Summary of the Project</h1>
 Here I uploaded Our team project resource. Our Team project name is StudentIDGen. This is our College 2nd Year 3rd Sem Java Mini Project.
      This Project ompletely based on the awt and Swing packeges of the Java. 
