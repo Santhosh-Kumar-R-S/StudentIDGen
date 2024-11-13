@@ -1,8 +1,10 @@
-## StudentIDGen
+# StudentIDGen
 <h1>Summary of the Project</h1>
 Here I uploaded Our team project resource. Our Team project name is StudentIDGen. This is our College 2nd Year 3rd Sem Java Mini Project.
      This Project ompletely based on the awt and Swing packeges of the Java. 
-     # Student ID Card Generator - Java Swing Application
+
+
+## Student ID Card Generator - Java Swing Application
 
 The provided code is a Java Swing application that serves as a **Student ID Card Generator**. It allows users to input student details, upload a picture, generate a preview of the ID card, and download the card as a PNG image. The application also connects to a MySQL database to store the student's information.
 
