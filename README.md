@@ -48,7 +48,7 @@ The provided code is a Java Swing application that serves as a **Student ID Card
 
 # Project Structure
 The Project has the follwing structure: 
-<pre> <code>Python Mini Project/
+<pre> <code>StudentIDGen/
      |
      |
      |----- StudentIDCardDB.db
